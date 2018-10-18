@@ -1,0 +1,76 @@
+>>>MAIN_TAREADOR:0
+2590:1:19XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ 13:8:13:loads::stores:[0,8)
+ >>>start_plan_forward:24
+258:2:2XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  2:8:2:loads::stores:[0,8)
+  3:8:3:loads::stores:[0,8)
+ 2:8:2:loads::stores:[0,8)
+ 3:8:3:loads::stores:[0,8)
+ <<<start_plan_forward:44:children:[]
+ 13:8:13:loads:[0,8):stores:[0,8)
+ >>>init_complex_grid:77
+541:4:4XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  0:8000:0:loads::stores:[0,8000)
+  1:8000:1:loads::stores:[0,8000)
+ 0:8000:0:loads::stores:[0,8000)
+ 1:8000:1:loads::stores:[0,8000)
+ <<<init_complex_grid:100519:children:[]
+ 13:8:13:loads:[0,8):stores:[0,8)
+ >>>ffts1_planes:100552
+840:6:6XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  0:8000:0:loads:[0,8000):stores:[0,8000)
+  2:8:2:loads:[0,8):stores:
+ 0:8000:0:loads:[0,8000):stores:[0,8000)
+ 2:8:2:loads:[0,8):stores:
+ <<<ffts1_planes:203696:children:[]
+ >>>transpose_xy_planes:203696
+1107:8:8XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  0:8000:0:loads:[0,8000):stores:
+  5:8000:5:loads::stores:[0,8000)
+ 0:8000:0:loads:[0,8000):stores:
+ 5:8000:5:loads::stores:[0,8000)
+ <<<transpose_xy_planes:261140:children:[]
+ >>>ffts1_planes:261140
+1374:10:10XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  2:8:2:loads:[0,8):stores:
+  5:8000:5:loads:[0,8000):stores:[0,8000)
+ 2:8:2:loads:[0,8):stores:
+ 5:8000:5:loads:[0,8000):stores:[0,8000)
+ <<<ffts1_planes:364284:children:[]
+ >>>transpose_zx_planes:364284
+1641:12:12XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  0:8000:0:loads::stores:[0,8000)
+  5:8000:5:loads:[0,8000):stores:
+ 0:8000:0:loads::stores:[0,8000)
+ 5:8000:5:loads:[0,8000):stores:
+ <<<transpose_zx_planes:421728:children:[]
+ >>>ffts1_planes:421728
+1908:14:14XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  0:8000:0:loads:[0,8000):stores:[0,8000)
+  2:8:2:loads:[0,8):stores:
+ 0:8000:0:loads:[0,8000):stores:[0,8000)
+ 2:8:2:loads:[0,8):stores:
+ <<<ffts1_planes:524872:children:[]
+ >>>transpose_zx_planes:524872
+2175:16:16XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  0:8000:0:loads:[0,8000):stores:
+  5:8000:5:loads::stores:[0,8000)
+ 0:8000:0:loads:[0,8000):stores:
+ 5:8000:5:loads::stores:[0,8000)
+ <<<transpose_zx_planes:582316:children:[]
+ >>>transpose_xy_planes:582316
+2447:18:18XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  0:8000:0:loads::stores:[0,8000)
+  5:8000:5:loads:[0,8000):stores:
+ 0:8000:0:loads::stores:[0,8000)
+ 5:8000:5:loads:[0,8000):stores:
+ <<<transpose_xy_planes:639760:children:[]
+ 13:8:13:loads:[0,8):stores:[0,8)
+0:8000:0:loads::stores:[0,8000)
+1:8000:1:loads::stores:[0,8000)
+2:8:2:loads::stores:[0,8)
+3:8:3:loads::stores:[0,8)
+5:8000:5:loads::stores:[0,8000)
+13:8:13:loads::stores:[0,8)
+<<<MAIN_TAREADOR:639780:children:[2, 4, 6, 8, 10, 12, 14, 16, 18]
